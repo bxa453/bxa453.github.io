@@ -1,24 +1,19 @@
 .grid-container {
   display: grid;
-  grid-gap: 40px;
-  background-color: #FF4500;
-  padding: 40px;
+  grid-gap: 50px;
+  background-color: #808080;
+  padding: 130px;
 }
 
 header {
   color: #052610;
   text-transform: uppercase;
-  font-family: "Helvetica", "Arial", Roboto;
-  font-size: 40px;
 }
-
-
 
 h1,
 h2,
 h3 {
-  color: #006341;
-  font-family: "Helvetica", "Arial" Roboto;
+  color: #052610;
 }
 
 h3 {
@@ -26,32 +21,34 @@ h3 {
 }
 
 
-/* link */
+/* unvisited link */
 
 a:link {
-  color: 15,37,18;
+  color: black;
 }
 
 
-/* other link */
+/* visited link */
 
 a:visited {
-  color: #ffff;
+  color: #052610;
 }
 
+
+/* mouse over link */
 
 a:hover {
-  color: #ffff;
+  color: blue;
 }
 
 
-/*  link selected */
+/* selected link */
 
 a:active {
-  color: #ffff;
+  color: blue;
 }
 table{
-  background-color: #FF4500;
+  background-color: #ce1126;
 }
 table, tr, td, th{
  border: 1px solid black;
@@ -62,7 +59,7 @@ th{
   font-weight: bolder;
 }
 tr{
-  background-color: #ffff;
+  background-color: white;
 }
 
 .grid-item {
@@ -70,8 +67,6 @@ tr{
   text-align: center;
   padding: 10px;
   font-size: 30px;
-  font-family: "Helvetica", "Arial" Roboto;
-
 }
 
 .item1 {
@@ -89,7 +84,7 @@ tr{
 }
 
 .item2 img:hover {
-  transform: scale(1.5);
+  transform: scale(0);
 }
 
 .item3 a,
@@ -124,7 +119,7 @@ tr{
 .item3:hover,
 .item4:hover,
 .item5:hover {
-  background-color: #ffff;
+  background-color: white;
 }
 
 .item6 {
@@ -143,7 +138,6 @@ article {
   margin: auto;
   text-align: justify;
   font-size: 20px;
-  font-family: "Helvetica", "Arial" Roboto;
 }
 
 .item8 {
@@ -153,7 +147,7 @@ article {
 
 }
 .item8 h2{
-  color: #ffff;
+  color: white;
 }
 .item9 {
   grid-column: 1 / span 3;
@@ -171,7 +165,7 @@ article {
 
 }
 .item10 h2{
-  color: #ffff;
+  color: white;
 }
 .item11 {
   grid-column: 1 / span 3;
@@ -185,7 +179,7 @@ article {
 
 }
 .item12 h2{
-  color: #ffff;
+  color: white;
 }
 
 .item13 {
