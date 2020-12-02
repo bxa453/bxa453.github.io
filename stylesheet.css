@@ -8,7 +8,7 @@
 header {
   color: #000000;
   text-transform: uppercase;
-  font-family: "Helvetica", "Arial", Roboto;
+  font-family: "Helvetica", "Arial" "Nunito";
   font-size: 80px;
 }
 
@@ -18,7 +18,7 @@ h1,
 h2,
 h3 {
   color: #000000;
-  font-family: "Helvetica", "Arial" Roboto;
+  font-family: "Helvetica", "Arial" "Nunito";
 }
 
 h3 {
@@ -71,7 +71,7 @@ tr{
   text-align: center;
   padding: 10px;
   font-size: 30px;
-  font-family: "Helvetica", "Arial" Roboto;
+  font-family: "Helvetica", "Arial" "Work Sans";
 
 }
 
@@ -84,6 +84,7 @@ tr{
   grid-column: 1 / span 3;
   grid-row: 2;
 }
+
 
 .item3 a,
 .item4 a,
@@ -136,7 +137,7 @@ article {
   margin: auto;
   text-align: justify;
   font-size: 20px;
-  font-family: "Helvetica", "Arial" Roboto;
+  font-family: "Helvetica", "Arial" "Work Sans";
 }
 
 .item8 {
