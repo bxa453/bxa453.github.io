@@ -1,0 +1,11 @@
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  background-color: #808080;
+  padding: 130px;
+}
+
+header {
+  color: #052610;
+  text-transform: uppercase;
+}
