@@ -49,6 +49,16 @@ a:hover {
 
 a:active {
   color: #ffff;
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+
 }
 table{
   background-color: #FF4500;
