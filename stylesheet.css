@@ -6,7 +6,7 @@
 }
 
 header {
-  color: #052610;
+  color: #000000;
   text-transform: uppercase;
   font-family: "Helvetica", "Arial", Roboto;
   font-size: 40px;
@@ -17,7 +17,7 @@ header {
 h1,
 h2,
 h3 {
-  color: #006341;
+  color: #000000;
   font-family: "Helvetica", "Arial" Roboto;
 }
 
@@ -36,12 +36,12 @@ a:link {
 /* other link */
 
 a:visited {
-  color: #ffff;
+  color: #000000;
 }
 
 
 a:hover {
-  color: #ffff;
+  color: #FF0000;
 }
 
 
