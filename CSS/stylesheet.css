@@ -6,14 +6,14 @@
 }
 
 header {
-  color: #052610;
+  color: #000000;
   text-transform: uppercase;
 }
 
 h1,
 h2,
 h3 {
-  color: #052610;
+  color: #000000;
 }
 
 h3 {
@@ -31,35 +31,28 @@ a:link {
 /* visited link */
 
 a:visited {
-  color: #052610;
+  color: ##000000;
 }
 
 
 /* mouse over link */
 
 a:hover {
-  color: blue;
+  color: #FF0000;
 }
 
 
 /* selected link */
 
 a:active {
-  color: blue;
-}
-table{
-  background-color: #ce1126;
-}
-table, tr, td, th{
- border: 1px solid black;
- padding: 10px;
+  color: #FF0000;
 }
 
 th{
   font-weight: bolder;
 }
 tr{
-  background-color: white;
+  background-color: #FF0000;
 }
 
 .grid-item {
@@ -133,64 +126,6 @@ tr{
   grid-row: 5;
 }
 
-article {
-  max-width: 900px;
-  margin: auto;
-  text-align: justify;
-  font-size: 20px;
-}
-
-.item8 {
-  grid-column: 1 / span 3;
-  grid-row: 6;
-  background-color: #ce1126;
-
-}
-.item8 h2{
-  color: white;
-}
-.item9 {
-  grid-column: 1 / span 3;
-  grid-row: 7;
-}
-
-.item9 p {
-  font-size: 20px;
-}
-
-.item10 {
-  grid-column: 1 / span 3;
-  grid-row: 8;
- background-color: #ce1126;
-
-}
-.item10 h2{
-  color: white;
-}
-.item11 {
-  grid-column: 1 / span 3;
-  grid-row: 9;
-}
-
-.item12 {
-  grid-column: 1 / span 3;
-  grid-row: 10;
- background-color: #ce1126;
-
-}
-.item12 h2{
-  color: white;
-}
-
-.item13 {
-  grid-column: 1 / span 3;
-  grid-row: 11;
-}
-
-.item14 {
-  grid-column: 1 / span 3;
-  grid-row: 12;
-}
 
 footer{
   font-weight: bolder;
