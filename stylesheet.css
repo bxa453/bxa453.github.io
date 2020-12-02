@@ -9,7 +9,7 @@ header {
   color: #000000;
   text-transform: uppercase;
   font-family: "Helvetica", "Arial", Roboto;
-  font-size: 40px;
+  font-size: 80px;
 }
 
 
@@ -22,14 +22,14 @@ h3 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 
 /* link */
 
 a:link {
-  color: 15,37,18;
+  color: #ffffff;
 }
 
 
@@ -48,20 +48,22 @@ a:hover {
 /*  link selected */
 
 a:active {
-  color: #ffff;
+  color: #ffffff;
 
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+}
+table{
+  background-color: #FF4500;
+}
+table, tr, td, th{
+ border: 1px solid #000000;
+ padding: 10px;
+}
 
 th{
   font-weight: bolder;
 }
 tr{
-  background-color: #ffff;
+  background-color: #ffffff;
 }
 
 .grid-item {
@@ -83,18 +85,10 @@ tr{
   grid-row: 2;
 }
 
-.item2 img {
-  cursor: pointer;
-}
-
-.item2 img:hover {
-  transform: scale(1.5);
-}
-
 .item3 a,
 .item4 a,
 .item5 a {
-  color: #052610;
+  color: ##000000;
   text-decoration: none;
   font-weight: bolder;
 }
@@ -123,7 +117,7 @@ tr{
 .item3:hover,
 .item4:hover,
 .item5:hover {
-  background-color: #ffff;
+  background-color: #ffffff;
 }
 
 .item6 {
@@ -152,7 +146,7 @@ article {
 
 }
 .item8 h2{
-  color: #ffff;
+  color: #ffffff;
 }
 .item9 {
   grid-column: 1 / span 3;
@@ -170,7 +164,7 @@ article {
 
 }
 .item10 h2{
-  color: #ffff;
+  color: #ffffff;
 }
 .item11 {
   grid-column: 1 / span 3;
@@ -184,7 +178,7 @@ article {
 
 }
 .item12 h2{
-  color: #ffff;
+  color: #ffffff;
 }
 
 .item13 {
